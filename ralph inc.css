@@ -1,0 +1,120 @@
+html{
+    
+}
+
+
+#navbar{
+    background-color: black;
+    width:100%;
+    
+}
+.logo{
+    padding:0;
+    margin: 0;
+    display: inline-block;
+}
+body{
+    margin: 0;
+}
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: verdana ;
+    position: relative;
+    top: -15px;
+}
+.links-container{
+    float: right;
+    position: relative;
+    top: 15px;
+    
+}
+.links{
+    color: white;
+    text-decoration: none;
+    font-family: verdana;
+    margin: 15px;
+}
+.links:hover{
+    color: darkviolet;
+}
+.btn-links{
+    text-decoration: none;
+    background-color:blue;
+    color:white;
+    padding:10px 25px ;
+    border-radius: 15px;
+}
+.btn-links:hover{
+    background-color: darkviolet;
+    transform: translateY(-5px);
+    transition: 0.5s;
+    padding:10px 30px ;
+}
+#side-bar{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+}
+.title{
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+}
+input{
+   margin: 10px;
+   position:relative;
+   top:-30px ;
+}
+.codes{
+    display: block;
+    color:white;
+    text-decoration: none;
+    margin: 30px;
+    font-family: Verdana;
+    text-align: center;
+}
+.codes:hover{
+    color: darkviolet;
+    transform: translateY(-5px);
+    transition: 0.9s;
+    background-color: white;
+}
+.logout{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    position: relative;
+    bottom: -500px;
+    text-align: center;
+    margin-left:50px;
+}
+.logout:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.5s;
+    padding:5px 30px;
+}
+.box-shadow{
+    box-shadow: 2px 2px 15px 3px rgba(0,0,0, 0.4);
+    margin-left:300px;
+    width: 190px;
+    height: 190px;
+    border-radius:15px ;
+    position: relative;
+    top: 25px;
+}
+.box-shadow:hover{
+    transform: translateY(-5px); 
+    transition: 1s;
+    background-color:tomato;
+}
+.content{
+
+}
+.text{
+    text-align: center;
+    padding:10px 20px;
+}
